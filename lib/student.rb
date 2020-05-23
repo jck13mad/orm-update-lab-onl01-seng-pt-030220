@@ -57,7 +57,7 @@ class Student
   
   def self.find_by_name
     sql = "SELECT * FROM students WHERE name = ?"
-    DB[:conn].execute(sql, name).map {
+    DB[:conn].execute(sql, name).map { |row| 
   
   
 
