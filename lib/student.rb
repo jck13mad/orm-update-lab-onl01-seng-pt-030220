@@ -28,7 +28,8 @@ class Student
     DB[:conn].execute("DROP TABLE IF EXITSTS students")
   end
   
-  def 
+  def save
+    
 
 
 end
