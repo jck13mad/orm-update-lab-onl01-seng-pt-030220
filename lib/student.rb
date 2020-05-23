@@ -33,7 +33,7 @@ class Student
       self.update
     else
       sql = <<-SQL
-        
+        INSERT INTO 
 
 
 end
