@@ -56,7 +56,8 @@ class Student
   end
   
   def self.find_by_name
-    sql = "SELECT * FROM students"
+    sql = "SELECT * FROM students WHERE name = ?"
+    
   
   
 
